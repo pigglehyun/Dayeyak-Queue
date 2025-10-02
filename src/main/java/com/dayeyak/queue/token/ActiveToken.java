@@ -17,7 +17,7 @@ public class ActiveToken {
     public ActiveToken(String userId, String token) {
         this.userId = userId;
         this.token = token;
-        this.expireAt = LocalDateTime.now().plusMinutes(10);
+        this.expireAt = LocalDateTime.now().plusMinutes(1);
     }
 
 }
